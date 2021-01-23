@@ -41,7 +41,7 @@ class CartScreen extends StatefulWidget {
                 MaterialButton(
                   padding: EdgeInsets.all(15),
                   color: Color(0xff35ac19),
-                  onPressed: (){Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => PayScreen()));},
+                  onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => PayScreen()));},
                   child: Text('Pagar',style: TextStyle(color: Colors.white,),),
                 ),
               ],

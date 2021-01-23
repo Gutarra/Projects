@@ -55,7 +55,7 @@ class _ProductsScreenState extends State<ProductsScreen> {
             MaterialButton(
               padding: EdgeInsets.all(15),
               color: Colors.green,
-              onPressed: (){Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => CartScreen()));},
+              onPressed: (){Navigator.push(context, MaterialPageRoute(builder: (context) => CartScreen()));},
               child: Text('Comprar',style: TextStyle(color: Colors.white,),),
             ),
           ],
